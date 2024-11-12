@@ -1,8 +1,13 @@
 name: Build and Publish
 
 on:
-  release:
-    types: [published]
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
 jobs:
   clone_vendors:
     name: Clone vendors
