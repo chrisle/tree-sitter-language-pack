@@ -1,8 +1,5 @@
 name: Build and Publish
 
-on:
-  release:
-    types: [published]
 jobs:
   clone_vendors:
     name: Clone vendors
