@@ -181,10 +181,6 @@
     "hare": {
         "repo": "https://github.com/tree-sitter-grammars/tree-sitter-hare"
     },
-    "haskell": {
-        "repo": "https://github.com/tree-sitter/tree-sitter-haskell",
-        "branch": "master"
-    },
     "haxe": {
         "repo": "https://github.com/vantreeseba/tree-sitter-haxe"
     },
